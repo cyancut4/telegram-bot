@@ -2,7 +2,7 @@ from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 import os
 
-TOKEN = os.environ.get("8524812389:AAFyB0A9HrvbkCCXezxP7zvggwNnNIeZ1jU")
+TOKEN = os.environ.get("BOT_TOKEN")
 
 RESPONSES = {
     "services": "We provide website, app, and AI development.",
